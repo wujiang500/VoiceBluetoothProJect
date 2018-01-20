@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FADC79E20133CB900EEE408 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FADC79D20133CB900EEE408 /* AppDelegate.m */; };
+		2FADC7A120133CB900EEE408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FADC7A020133CB900EEE408 /* ViewController.m */; };
+		2FADC7A420133CB900EEE408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FADC7A220133CB900EEE408 /* Main.storyboard */; };
+		2FADC7A620133CB900EEE408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FADC7A520133CB900EEE408 /* Assets.xcassets */; };
+		2FADC7A920133CB900EEE408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FADC7A720133CB900EEE408 /* LaunchScreen.storyboard */; };
+		2FADC7AC20133CB900EEE408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FADC7AB20133CB900EEE408 /* main.m */; };
+		2FADC7B620133CBA00EEE408 /* TeleControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FADC7B520133CBA00EEE408 /* TeleControllerTests.m */; };
+		2FADC7C120133CBA00EEE408 /* TeleControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FADC7C020133CBA00EEE408 /* TeleControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FADC7B220133CBA00EEE408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FADC79120133CB900EEE408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FADC79820133CB900EEE408;
+			remoteInfo = TeleController;
+		};
+		2FADC7BD20133CBA00EEE408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FADC79120133CB900EEE408 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FADC79820133CB900EEE408;
+			remoteInfo = TeleController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FADC79920133CB900EEE408 /* TeleController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FADC79C20133CB900EEE408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FADC79D20133CB900EEE408 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FADC79F20133CB900EEE408 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FADC7A020133CB900EEE408 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FADC7A320133CB900EEE408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FADC7A520133CB900EEE408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FADC7A820133CB900EEE408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FADC7AA20133CB900EEE408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FADC7AB20133CB900EEE408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FADC7B120133CBA00EEE408 /* TeleControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FADC7B520133CBA00EEE408 /* TeleControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeleControllerTests.m; sourceTree = "<group>"; };
+		2FADC7B720133CBA00EEE408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FADC7BC20133CBA00EEE408 /* TeleControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FADC7C020133CBA00EEE408 /* TeleControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeleControllerUITests.m; sourceTree = "<group>"; };
+		2FADC7C220133CBA00EEE408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FADC79620133CB900EEE408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADC7AE20133CBA00EEE408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADC7B920133CBA00EEE408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FADC79020133CB900EEE408 = {
+			isa = PBXGroup;
+			children = (
+				2FADC79B20133CB900EEE408 /* TeleController */,
+				2FADC7B420133CBA00EEE408 /* TeleControllerTests */,
+				2FADC7BF20133CBA00EEE408 /* TeleControllerUITests */,
+				2FADC79A20133CB900EEE408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FADC79A20133CB900EEE408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FADC79920133CB900EEE408 /* TeleController.app */,
+				2FADC7B120133CBA00EEE408 /* TeleControllerTests.xctest */,
+				2FADC7BC20133CBA00EEE408 /* TeleControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FADC79B20133CB900EEE408 /* TeleController */ = {
+			isa = PBXGroup;
+			children = (
+				2FADC79C20133CB900EEE408 /* AppDelegate.h */,
+				2FADC79D20133CB900EEE408 /* AppDelegate.m */,
+				2FADC79F20133CB900EEE408 /* ViewController.h */,
+				2FADC7A020133CB900EEE408 /* ViewController.m */,
+				2FADC7A220133CB900EEE408 /* Main.storyboard */,
+				2FADC7A520133CB900EEE408 /* Assets.xcassets */,
+				2FADC7A720133CB900EEE408 /* LaunchScreen.storyboard */,
+				2FADC7AA20133CB900EEE408 /* Info.plist */,
+				2FADC7AB20133CB900EEE408 /* main.m */,
+			);
+			path = TeleController;
+			sourceTree = "<group>";
+		};
+		2FADC7B420133CBA00EEE408 /* TeleControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FADC7B520133CBA00EEE408 /* TeleControllerTests.m */,
+				2FADC7B720133CBA00EEE408 /* Info.plist */,
+			);
+			path = TeleControllerTests;
+			sourceTree = "<group>";
+		};
+		2FADC7BF20133CBA00EEE408 /* TeleControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FADC7C020133CBA00EEE408 /* TeleControllerUITests.m */,
+				2FADC7C220133CBA00EEE408 /* Info.plist */,
+			);
+			path = TeleControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FADC79820133CB900EEE408 /* TeleController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FADC7C520133CBA00EEE408 /* Build configuration list for PBXNativeTarget "TeleController" */;
+			buildPhases = (
+				2FADC79520133CB900EEE408 /* Sources */,
+				2FADC79620133CB900EEE408 /* Frameworks */,
+				2FADC79720133CB900EEE408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeleController;
+			productName = TeleController;
+			productReference = 2FADC79920133CB900EEE408 /* TeleController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FADC7B020133CBA00EEE408 /* TeleControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FADC7C820133CBA00EEE408 /* Build configuration list for PBXNativeTarget "TeleControllerTests" */;
+			buildPhases = (
+				2FADC7AD20133CBA00EEE408 /* Sources */,
+				2FADC7AE20133CBA00EEE408 /* Frameworks */,
+				2FADC7AF20133CBA00EEE408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FADC7B320133CBA00EEE408 /* PBXTargetDependency */,
+			);
+			name = TeleControllerTests;
+			productName = TeleControllerTests;
+			productReference = 2FADC7B120133CBA00EEE408 /* TeleControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FADC7BB20133CBA00EEE408 /* TeleControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FADC7CB20133CBA00EEE408 /* Build configuration list for PBXNativeTarget "TeleControllerUITests" */;
+			buildPhases = (
+				2FADC7B820133CBA00EEE408 /* Sources */,
+				2FADC7B920133CBA00EEE408 /* Frameworks */,
+				2FADC7BA20133CBA00EEE408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FADC7BE20133CBA00EEE408 /* PBXTargetDependency */,
+			);
+			name = TeleControllerUITests;
+			productName = TeleControllerUITests;
+			productReference = 2FADC7BC20133CBA00EEE408 /* TeleControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FADC79120133CB900EEE408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wujiang;
+				TargetAttributes = {
+					2FADC79820133CB900EEE408 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2FADC7B020133CBA00EEE408 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FADC79820133CB900EEE408;
+					};
+					2FADC7BB20133CBA00EEE408 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FADC79820133CB900EEE408;
+					};
+				};
+			};
+			buildConfigurationList = 2FADC79420133CB900EEE408 /* Build configuration list for PBXProject "TeleController" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FADC79020133CB900EEE408;
+			productRefGroup = 2FADC79A20133CB900EEE408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FADC79820133CB900EEE408 /* TeleController */,
+				2FADC7B020133CBA00EEE408 /* TeleControllerTests */,
+				2FADC7BB20133CBA00EEE408 /* TeleControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FADC79720133CB900EEE408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADC7A920133CB900EEE408 /* LaunchScreen.storyboard in Resources */,
+				2FADC7A620133CB900EEE408 /* Assets.xcassets in Resources */,
+				2FADC7A420133CB900EEE408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADC7AF20133CBA00EEE408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADC7BA20133CBA00EEE408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FADC79520133CB900EEE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADC7A120133CB900EEE408 /* ViewController.m in Sources */,
+				2FADC7AC20133CB900EEE408 /* main.m in Sources */,
+				2FADC79E20133CB900EEE408 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADC7AD20133CBA00EEE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADC7B620133CBA00EEE408 /* TeleControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADC7B820133CBA00EEE408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FADC7C120133CBA00EEE408 /* TeleControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FADC7B320133CBA00EEE408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FADC79820133CB900EEE408 /* TeleController */;
+			targetProxy = 2FADC7B220133CBA00EEE408 /* PBXContainerItemProxy */;
+		};
+		2FADC7BE20133CBA00EEE408 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FADC79820133CB900EEE408 /* TeleController */;
+			targetProxy = 2FADC7BD20133CBA00EEE408 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FADC7A220133CB900EEE408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FADC7A320133CB900EEE408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FADC7A720133CB900EEE408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FADC7A820133CB900EEE408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FADC7C320133CBA00EEE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2FADC7C420133CBA00EEE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FADC7C620133CBA00EEE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US22LFG432;
+				INFOPLIST_FILE = TeleController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueTooth.bbb.TeleController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FADC7C720133CBA00EEE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US22LFG432;
+				INFOPLIST_FILE = TeleController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueTooth.bbb.TeleController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FADC7C920133CBA00EEE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US22LFG432;
+				INFOPLIST_FILE = TeleControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueTooth.bbb.TeleControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleController.app/TeleController";
+			};
+			name = Debug;
+		};
+		2FADC7CA20133CBA00EEE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US22LFG432;
+				INFOPLIST_FILE = TeleControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueTooth.bbb.TeleControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeleController.app/TeleController";
+			};
+			name = Release;
+		};
+		2FADC7CC20133CBA00EEE408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US22LFG432;
+				INFOPLIST_FILE = TeleControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueTooth.bbb.TeleControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeleController;
+			};
+			name = Debug;
+		};
+		2FADC7CD20133CBA00EEE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = US22LFG432;
+				INFOPLIST_FILE = TeleControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blueTooth.bbb.TeleControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeleController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FADC79420133CB900EEE408 /* Build configuration list for PBXProject "TeleController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADC7C320133CBA00EEE408 /* Debug */,
+				2FADC7C420133CBA00EEE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FADC7C520133CBA00EEE408 /* Build configuration list for PBXNativeTarget "TeleController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADC7C620133CBA00EEE408 /* Debug */,
+				2FADC7C720133CBA00EEE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FADC7C820133CBA00EEE408 /* Build configuration list for PBXNativeTarget "TeleControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADC7C920133CBA00EEE408 /* Debug */,
+				2FADC7CA20133CBA00EEE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FADC7CB20133CBA00EEE408 /* Build configuration list for PBXNativeTarget "TeleControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FADC7CC20133CBA00EEE408 /* Debug */,
+				2FADC7CD20133CBA00EEE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FADC79120133CB900EEE408 /* Project object */;
+}
