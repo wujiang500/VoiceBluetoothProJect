@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5BCB97201DA68D0009974B /* ControllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BCB96201DA68D0009974B /* ControllViewController.m */; };
 		2FADC79E20133CB900EEE408 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2FADC79D20133CB900EEE408 /* AppDelegate.mm */; };
 		2FADC7A120133CB900EEE408 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FADC7A020133CB900EEE408 /* ViewController.m */; };
 		2FADC7A420133CB900EEE408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FADC7A220133CB900EEE408 /* Main.storyboard */; };
@@ -79,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F5BCB95201DA68D0009974B /* ControllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllViewController.h; sourceTree = "<group>"; };
+		2F5BCB96201DA68D0009974B /* ControllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllViewController.m; sourceTree = "<group>"; };
 		2FADC79920133CB900EEE408 /* TeleController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeleController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FADC79C20133CB900EEE408 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2FADC79D20133CB900EEE408 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 				2FADC7A020133CB900EEE408 /* ViewController.m */,
 				2FADC8212013403C00EEE408 /* NewViewContoller.h */,
 				2FADC8222013403C00EEE408 /* NewViewContoller.m */,
+				2F5BCB95201DA68D0009974B /* ControllViewController.h */,
+				2F5BCB96201DA68D0009974B /* ControllViewController.m */,
 				2FADC7A220133CB900EEE408 /* Main.storyboard */,
 				2FADC7A520133CB900EEE408 /* Assets.xcassets */,
 				2FADC7A720133CB900EEE408 /* LaunchScreen.storyboard */,
@@ -602,6 +607,7 @@
 				2FADC86E20134AE500EEE408 /* json_writer.cpp in Sources */,
 				2FADC87E20134AE500EEE408 /* LocationRequest.m in Sources */,
 				2FADC81320133E2200EEE408 /* BabyPeripheralManager.m in Sources */,
+				2F5BCB97201DA68D0009974B /* ControllViewController.m in Sources */,
 				2FADC87A20134AE500EEE408 /* SBJson4Parser.m in Sources */,
 				2FADC87120134AE500EEE408 /* json_value.cpp in Sources */,
 				2FADC81920133E2200EEE408 /* SVProgressHUD.m in Sources */,
