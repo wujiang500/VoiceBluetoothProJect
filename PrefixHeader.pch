@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  TeleController
+//
+//  Created by wujiang on 2018/1/20.
+//  Copyright © 2018年 wujiang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// 三方库
+#import "SVProgressHUD.h"
+
+
+// 蓝牙
+#import <CoreBluetooth/CoreBluetooth.h>
+#import "BabyBluetooth.h"
+
+// 语音识别
+#import <iflyMSC/iflyMSC.h>
+
+
+
+#endif

@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#import "BabyBluetooth.h"
+#import "SVProgressHUD.h"
+
+
+
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 
 @end
